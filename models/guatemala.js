@@ -18,7 +18,7 @@ const GuatemalaSchema = Schema({
     },
     fecha_servidor: {
         type: String,
-        required: [true, 'El fecha es obligatorio'],
+        required: [true, 'La fecha es obligatoria'],
     }
 
 });
